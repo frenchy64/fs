@@ -1,5 +1,8 @@
 (ns me.raynes.fs
   "File system utilities in Clojure"
+  {:lang :core.typed
+   :core.typed {:features 
+                #{:runtime-infer}}}
   (:refer-clojure :exclude [name parents])
   (:require [clojure.zip :as zip]
             [clojure.java.io :as io]
