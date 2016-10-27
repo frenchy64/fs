@@ -8,7 +8,8 @@
             [clojure.java.io :as io]
             [clojure.string :as string]
             [clojure.java.shell :as sh]
-            [clojure.core.typed :as t])
+            [clojure.core.typed :as t]
+            [clojure.spec :as s])
   (:import [java.io File FilenameFilter]))
 
 ;; Once you've started a JVM, that JVM's working directory is set in stone
